@@ -8,15 +8,15 @@ import { DetailSection } from "./components/detail section/detail-section.tsx";
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/FrontendMentorChallenge--REST-Countries-API/",
     element: <App />,
     children: [
       {
-        path: "/",
+        path: "/FrontendMentorChallenge--REST-Countries-API/",
         element: <HomeSection />,
       },
       {
-        path: "/:country",
+        path: "/FrontendMentorChallenge--REST-Countries-API/:country",
         element: <DetailSection />,
       },
     ],

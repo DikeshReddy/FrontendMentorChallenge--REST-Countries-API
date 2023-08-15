@@ -71,8 +71,6 @@ export const homeSectionStore = create<homeSectionStoreType>()((set) => ({
       (country: any) => country.name === countryName,
     );
 
-    console.log(filteredCountry[0]);
-
     if (filteredCountry[0].borders) {
       BorderCountries = filteredCountry[0].borders
         .map((border: any) =>
