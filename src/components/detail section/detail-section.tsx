@@ -37,7 +37,7 @@ export const DetailSection = () => {
 
   return (
     <main className="details-section mx-auto flex w-[80%] flex-col gap-[56px] py-[80px]  dark:bg-blue-200 dark:text-white-100">
-      <Link to={"/"}>
+      <Link to={"/FrontendMentorChallenge--REST-Countries-API/"}>
         <button
           onClick={clickHandler}
           className="back-button flex items-center gap-[20px] rounded-[5px] bg-white-100 px-[50px] py-[20px] shadow-lg dark:bg-blue-100 dark:text-white-100"
