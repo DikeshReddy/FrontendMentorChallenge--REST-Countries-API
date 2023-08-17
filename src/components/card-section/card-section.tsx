@@ -13,7 +13,7 @@ export const CardSection = () => {
   return (
     <>
       {countryList.status === "success" && (
-        <section className="card-section flex flex-col flex-wrap gap-[48px] md:flex-row ">
+        <section className="card-section flex flex-wrap justify-center  gap-[48px] md:flex-row ">
           {countryList.data.map((country: any) => (
             <Card
               imageUrl={country.flag}
